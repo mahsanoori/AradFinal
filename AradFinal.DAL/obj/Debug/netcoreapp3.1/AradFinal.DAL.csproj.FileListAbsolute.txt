@@ -10,3 +10,15 @@ D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\
 D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\AradFinal.DAL.pdb
 D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\AradFinal.DAL.genruntimeconfig.cache
 D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\AradFinal.DAL.csprojAssemblyReference.cache
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\bin\Debug\netcoreapp3.1\AradFinal.DAL.deps.json
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\bin\Debug\netcoreapp3.1\AradFinal.DAL.runtimeconfig.json
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\bin\Debug\netcoreapp3.1\AradFinal.DAL.runtimeconfig.dev.json
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\bin\Debug\netcoreapp3.1\AradFinal.DAL.dll
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\bin\Debug\netcoreapp3.1\AradFinal.DAL.pdb
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\AradFinal.DAL.csprojAssemblyReference.cache
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\AradFinal.DAL.AssemblyInfoInputs.cache
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\AradFinal.DAL.AssemblyInfo.cs
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\AradFinal.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\AradFinal.DAL.dll
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\AradFinal.DAL.pdb
+C:\Users\Mahsa\Desktop\AradFinal\AradFinal.DAL\obj\Debug\netcoreapp3.1\AradFinal.DAL.genruntimeconfig.cache

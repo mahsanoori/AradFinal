@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.Core\\AradFinal.Core.csproj": {}
+    "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.Core\\AradFinal.Core.csproj": {}
   },
   "projects": {
-    "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.Core\\AradFinal.Core.csproj": {
+    "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.Core\\AradFinal.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.Core\\AradFinal.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.Core\\AradFinal.Core.csproj",
         "projectName": "AradFinal.Core",
-        "projectPath": "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.Core\\AradFinal.Core.csproj",
+        "projectPath": "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.Core\\AradFinal.Core.csproj",
         "packagesPath": "C:\\Users\\Mahsa\\.nuget\\packages\\",
-        "outputPath": "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.Core\\obj\\",
+        "outputPath": "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj": {
-                "projectPath": "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj"
+              "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj": {
+                "projectPath": "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj": {
+    "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj",
         "projectName": "AradFinal.DAL",
-        "projectPath": "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj",
+        "projectPath": "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj",
         "packagesPath": "C:\\Users\\Mahsa\\.nuget\\packages\\",
-        "outputPath": "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

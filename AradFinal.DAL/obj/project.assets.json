@@ -5762,11 +5762,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj",
       "projectName": "AradFinal.DAL",
-      "projectPath": "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj",
+      "projectPath": "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.DAL\\AradFinal.DAL.csproj",
       "packagesPath": "C:\\Users\\Mahsa\\.nuget\\packages\\",
-      "outputPath": "D:\\AradSite\\AradSite\\NewVersion\\AradFinal\\AradFinal.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Mahsa\\Desktop\\AradFinal\\AradFinal.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
