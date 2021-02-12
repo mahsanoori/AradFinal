@@ -1,0 +1,131 @@
+﻿@model IEnumerable<AradFinal.DAL.Entities.Social>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Panel.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="header">
+                <h4 class="title pull-right"> شبکه های اجتماعی</h4>
+                <h4 class="title pull-left">
+                    <a href="/Social/Create" class="btn btn-primary">جدید</a>
+                </h4>
+
+            </div>
+            <div class="content table-responsive table-full-width">
+                <table class="table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Name)
+                            </th>
+                            <th class="hidden-xs">
+                                @Html.DisplayNameFor(model => model.LastModifyDate)
+                            </th>
+                            <th class="hidden-xs">
+                                @Html.DisplayNameFor(model => model.OrderShow)
+                            </th>
+                            <th class="hidden-xs">
+                                آیکون
+                            </th>
+                            <th>
+                                وضعیت
+                            </th>
+                            <th>
+                                عملیات
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td class="hidden-xs">
+                                    @Html.DisplayFor(modelItem => item.LastModifyDate)
+                                </td>
+                                <td class="hidden-xs">
+                                    @Html.DisplayFor(modelItem => item.OrderShow)
+                                </td>
+                                <td>
+                                    <a href="@item.Address" target="_blank" class="hidden-xs">
+                                        <span class="fa @item.Icon fa-2x" style="color:@item.Color"></span>
+                                    </a>
+                                </td>
+                                <td>
+                                    @if (item.IsDelete)
+                                    {
+                                        <span class="label label-danger">حذف شده</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="label label-success">ثبت شده</span>
+                                    }
+                                </td>
+                                <td>
+                                    @*<a href="#" class="btn btn-xs btn-info"><i class="fa fa-eye"></i></a>*@
+                                    <a href="/Social/Edit/@item.Id" class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+
+                                    @if (item.IsDelete)
+                                    {
+                                        <a href="#" onclick="myDelete('@item.Id')" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></a>
+                                    }
+                                    else
+                                    {
+                                        <a href="#" onclick="myTrash('@item.Id')" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></a>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section mySection{
+    <script src="~/js/sweet.js"></script>
+
+    <script>
+        function myTrash(id) {
+            swal({
+                title: "آیا اطمینان دارید؟",
+                text: "آیا از انتقال به زباله دان مطمئنید؟",
+                icon: "warning",
+                buttons: ["لغو", "بلی"],
+                dangermode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+                        window.open('/Social/Trash/' + id, '_parent');
+                    }
+
+                });
+        }
+        function myDelete(id) {
+            swal({
+                title: "آیا اطمینان دارید؟",
+                text: "با تایید حذف دیگر به این داده دسترسی نخواهید داشت.",
+                icon: "warning",
+                buttons: ["لغو", "بلی"],
+                dangermode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+                        window.open('/Social/Delete/' + id, '_parent');
+                    }
+
+                });
+        }
+    </script>
+}
+
+
+

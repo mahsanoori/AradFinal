@@ -1,0 +1,55 @@
+﻿@model AradFinal.Core.ViewModels.Dashboard.SocialViewModel
+
+@{
+    ViewData["Title"] = "جدید";
+    Layout = "~/Views/Shared/_Panel.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="card">
+            <div class="header">
+                <h4 class="title">شبکه اجتماعی جدید</h4>
+            </div>
+            <div class="content">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Icon"><label> | <strong><a href="https://fontawesome.com/icons?d=gallery" target="_blank">اینجا</a>نمایش آیکونها از</strong></label></label>
+                        <input asp-for="Icon" class="form-control" />
+                        <span asp-validation-for="Icon" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Color">رنگ</label>
+                        <input asp-for="Color" class="form-control" type="color" />
+                        <span asp-validation-for="Color" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Address">آدرس</label>
+                        <input type="text" asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="OrderShow"><label> | عدد صفر بیانگر عدم نمایش است.</label></label>
+                        <input asp-for="OrderShow" class="form-control" value="1" min="0" />
+                        <span asp-validation-for="OrderShow" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="ثبت و بازگشت" class="btn btn-info btn-fill pull-right btn-default" />
+                        <a href="/Social" class="btn btn-danger btn-fill pull-left">بازگشت</a>
+                    </div>
+                </form>
+
+
+                @*<button type="submit" class="btn btn-info btn-fill pull-left">آپدیت پروفایل</button>*@
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+    </div>
+    </div>

@@ -1,0 +1,15 @@
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\bin\Debug\netcoreapp3.1\AradFinal.Core.deps.json
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\bin\Debug\netcoreapp3.1\AradFinal.Core.runtimeconfig.json
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\bin\Debug\netcoreapp3.1\AradFinal.Core.runtimeconfig.dev.json
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\bin\Debug\netcoreapp3.1\AradFinal.Core.dll
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\bin\Debug\netcoreapp3.1\AradFinal.Core.pdb
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\obj\Debug\netcoreapp3.1\AradFinal.Core.csprojAssemblyReference.cache
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\obj\Debug\netcoreapp3.1\AradFinal.Core.AssemblyInfoInputs.cache
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\obj\Debug\netcoreapp3.1\AradFinal.Core.AssemblyInfo.cs
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\obj\Debug\netcoreapp3.1\AradFinal.Core.csproj.CoreCompileInputs.cache
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\obj\Debug\netcoreapp3.1\AradFinal.Core.dll
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\obj\Debug\netcoreapp3.1\AradFinal.Core.pdb
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\obj\Debug\netcoreapp3.1\AradFinal.Core.genruntimeconfig.cache
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\bin\Debug\netcoreapp3.1\AradFinal.DAL.dll
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\bin\Debug\netcoreapp3.1\AradFinal.DAL.pdb
+D:\AradSite\AradSite\NewVersion\AradFinal\AradFinal.Core\obj\Debug\netcoreapp3.1\AradFinal.Core.csproj.CopyComplete
